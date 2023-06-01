@@ -19,5 +19,5 @@ https://github.com/DannyAe/Server-Side-APIs-Challenge-Weather-Dashboard
 
 ## screenshot
 
-![Sample Website Preview](./screenshot.PNG)
+![Sample Website Preview](/screenshot.PNG)
 
