@@ -1,0 +1,134 @@
+/* Helper Elements */
+form {
+    display: flex;
+    margin-left: 100px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #b74d00, #cc5b00, #e26800, #f17600, #ff8400, #ff9200, #ffa000, #ffae00, #ffbc00, #ffc900, #ffd700, #ffe500);
+  
+}
+
+button {
+    margin-left: 30px;
+}
+
+.column {
+    width: auto;
+    align-self: center;
+}
+
+hr {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    color: white;
+    background: rgba(255, 255, 255, 0);
+}
+
+#search-align {
+    text-align: center;
+}
+
+#search-list a {
+    text-decoration: none;
+}
+
+/* Navigation Bar Stylings */
+.navbar-brand {
+    color: white;
+}
+
+/* Main Hero Section Stylings */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0.3rem;
+}
+
+/* Current Day Weather Stylings */
+.today-img {
+    width: 250px;
+    height: auto;
+}
+
+#current-weather {
+    background: rgba(255, 255, 255, 0);
+}
+
+#current-weather,
+.today-temp,
+.today-wind,
+.today-hum {
+    width: auto;
+    color: white;
+    font-weight: bold;
+}
+
+#current-city {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0);
+}
+
+/* 5 Day Forecast Card Container Stylings */
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid #8c4600;
+    border-radius: 0.18rem;
+    background-color: #cc5b00;
+    border-bottom: 1px solid #8c4600;
+}
+
+.card-header {
+    color: white;
+    background-color: #8c4600;
+    padding: 2.5%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.card-body {
+    padding: 2.5%;
+    color: white;
+}
+
+.card-img0,
+.card-img1,
+.card-img2,
+.card-img3,
+.card-img4 {
+    width: auto;
+    height: 100px;
+}
+
+/* Button Stylings */
+button .btn {
+    background-color: silver;
+    border: 1px solid #000000;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #b74d00;
+    --bs-btn-border-color: #b74d00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #b74d00;
+    --bs-btn-hover-border-color: #b74d00;
+    --bs-btn-focus-shadow-rgb: 183, 77, 0;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b74d00;
+    --bs-btn-active-border-color: #b74d00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b74d00;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #b74d00;
+    --bs-gradient: none;
+    /* Autumn palette button */
+}
